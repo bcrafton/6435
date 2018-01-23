@@ -1,0 +1,6 @@
+git reset --hard deletes all files in this VM whatever the config is for git.
+so i did that and lost all these files
+they were really just:
+1. the dac-adc xcox file
+2. the remote data
+3. the local data

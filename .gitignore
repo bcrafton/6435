@@ -1,2 +1,10 @@
 .*
 *~
+*.blif
+*.data
+*.swcs
+*.zip
+*.pads
+*.net
+*.mem
+

@@ -15,6 +15,6 @@ b4 = repmat(b3, 1, 2);
 b5 = repmat(b4, 1, 2);
 b6 = repmat(b5, 1, 2);
 
-x = [a6, b6, a5, b5, a4, b4, a3, b3, a2, b2, a1, b1];
+x = [a4, b4, a3, b3, a2, b2, a1, b1];
 
 myVariable = x;

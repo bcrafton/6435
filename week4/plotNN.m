@@ -2,6 +2,8 @@
 clc;
 clear;
 
+hold on;
+
 ############
 
 M = dlmread("./data/ex1/tek0001ALL.csv");
@@ -9,7 +11,10 @@ M = dlmread("./data/ex1/tek0001ALL.csv");
 x = M(:, 1);
 y = M(:, 2);
 
-# plot(x, y);
+len = size(x)(1);
+mid = floor(len / 2);
+
+plot(x, y);
 
 ############
 
@@ -36,7 +41,7 @@ M = dlmread("./data/neuron_recordings/neuron_spike_Iin_0.01nA.csv");
 x = M(:, 1);
 y = M(:, 2);
 
-# plot(x, y);
+plot(x, y);
 
 ############
 
@@ -63,7 +68,7 @@ M = dlmread("./data/neuron_recordings/neuron_spike_Iin_1n.csv");
 x = M(:, 1);
 y = M(:, 2);
 
-# plot(x, y);
+plot(x, y);
 
 ############
 
@@ -90,6 +95,6 @@ M = dlmread("./data/neuron_recordings/neuron_spike_Iin_50nA.csv");
 x = M(:, 1);
 y = M(:, 2);
 
-# plot(x, y);
+plot(x, y);
 
 ############
